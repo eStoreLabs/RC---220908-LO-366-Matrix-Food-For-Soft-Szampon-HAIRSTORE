@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Mont-Book";
-  src: url("./fonts/Mont-Book.otf") format("opentype");
+  font-family: 'Mont-Book';
+  src: url('./fonts/Mont-Book.otf') format('opentype');
 }
 @font-face {
-  font-family: "Mont-Heavy";
-  src: url("./fonts/Fontfabric-Mont-Heavy.otf") format("opentype");
+  font-family: 'Mont-Heavy';
+  src: url('./fonts/Fontfabric-Mont-Heavy.otf') format('opentype');
 }
 #es-matrix.es-matrix * {
   box-sizing: border-box;
@@ -15,7 +15,7 @@
 }
 
 #es-matrix.es-matrix {
-  font-family: "Mont-Book";
+  font-family: 'Mont-Book';
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2;
@@ -78,7 +78,7 @@
   color: #000;
   font-size: 50px;
   text-align: left;
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
   line-height: 0.9;
   margin-bottom: 0;
   margin-top: 0;
@@ -86,14 +86,14 @@
 #es-matrix.es-matrix .es-kv__subtitle {
   color: #000;
   font-size: 25px;
-  max-width: 300px;
+  max-width: 400px;
 }
 #es-matrix.es-matrix .es-kv__subtitle--bold {
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
 }
 #es-matrix.es-matrix .es-kv__subtitle-items {
   margin: 0;
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
   color: #fff;
   text-align: center;
   font-size: 20px;
@@ -106,7 +106,7 @@
   text-align: center;
 }
 #es-matrix.es-matrix .es-benefits-items p span {
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
 }
 #es-matrix.es-matrix .es-benefits-items__content {
   padding-top: 125px;
@@ -144,7 +144,7 @@
   display: inline-block;
 }
 #es-matrix.es-matrix .es-benefits__content p span {
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
 }
 #es-matrix.es-matrix .es-benefits__content ul {
   padding-top: 20px;
@@ -163,12 +163,12 @@
   height: 25px;
   width: 25px;
   margin-right: 15px;
-  content: "";
+  content: '';
   background: #00b843 url(./img/tick.png) no-repeat 0 0;
   background-size: 14.5px 14.5px;
 }
 #es-matrix.es-matrix .es-benefits__list-title {
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
   margin: 0;
 }
 #es-matrix.es-matrix .es-benefits__list-wrapper {
@@ -189,7 +189,7 @@
   list-style: none;
 }
 #es-matrix.es-matrix .es-benefits__content ul li::before {
-  content: "";
+  content: '';
   display: inline-block;
   background-color: #fff;
   width: 14.5px;
@@ -201,11 +201,11 @@
   margin: 0;
 }
 #es-matrix.es-matrix .es-benefits__bold {
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
 }
 #es-matrix.es-matrix .es-benefits__title {
   margin-bottom: 20px;
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
   font-size: 26px;
   z-index: 1;
 }
@@ -231,14 +231,14 @@
   color: #fff;
 }
 #es-matrix.es-matrix .es-usage__title {
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
   font-size: 30px;
 }
 #es-matrix.es-matrix .es-usage__step {
   font-size: 14px;
 }
 #es-matrix.es-matrix .es-usage__step span {
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
 }
 #es-matrix.es-matrix .es-compare {
   display: flex;
@@ -267,7 +267,7 @@
   width: 100%;
   text-align: center;
   color: #fff;
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
   min-height: 60px;
 }
 #es-matrix.es-matrix .es-advice {
@@ -280,7 +280,7 @@
 }
 #es-matrix.es-matrix .es-advice__title {
   text-align: center;
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
   font-size: 22px;
   padding-top: 30px;
   padding-bottom: 0;
@@ -295,7 +295,7 @@
   margin: 5px;
 }
 #es-matrix.es-matrix .es-advice__content span {
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
 }
 #es-matrix.es-matrix .es-cross {
   padding: 20px 0;
@@ -305,7 +305,7 @@
   align-items: center;
 }
 #es-matrix.es-matrix .es-cross__title {
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
   font-size: 30px;
 }
 #es-matrix.es-matrix .es-cross__Ctn {
@@ -320,24 +320,29 @@
   justify-content: center;
   align-items: center;
   margin: 20px 2px;
-  min-width: 280px;
+  min-width: 240px;
   min-height: 400px;
 }
 #es-matrix.es-matrix .es-cross__img {
   width: 100%;
-  min-height: 350px;
+  min-height: 300px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
 }
 #es-matrix.es-matrix .es-cross__img img {
   max-height: 300px;
+}
+
+#es-matrix.es-matrix .es-cross__img--small {
+  height: 200px;
+  margin-bottom: 20px;
 }
 #es-matrix.es-matrix .es-cross__text {
   text-align: center;
 }
 #es-matrix.es-matrix .es-cross__name {
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -351,7 +356,7 @@
   background-color: #000;
   color: #fff;
   border-radius: 5px;
-  font-family: "Mont-Heavy";
+  font-family: 'Mont-Heavy';
   font-size: 14px;
 }
 #es-matrix.es-matrix .es-cross__link:hover {
@@ -379,7 +384,7 @@
   }
   #es-matrix.es-matrix .es-kv__content {
     align-items: flex-start;
-    padding-left: 70px;
+    padding-left: 50px;
     text-align: left;
   }
   #es-matrix.es-matrix .es-kv__content--second {
@@ -404,7 +409,7 @@
   }
   #es-matrix.es-matrix .es-kv__content {
     align-items: flex-start;
-    padding-left: 70px;
+    padding-left: 50px;
   }
   #es-matrix.es-matrix .es-kv__content--second {
     align-items: center;
@@ -434,4 +439,4 @@
   #es-matrix.es-matrix .es-kv__content {
     width: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
